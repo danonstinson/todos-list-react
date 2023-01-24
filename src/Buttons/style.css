@@ -1,0 +1,14 @@
+.tools__button {
+    background-color: transparent;
+    color: teal;
+    border: none;
+    margin-right: 15px;
+}
+
+.tools__button:hover {
+    color: hsl(180, 100%, 35%);
+}
+
+.tools__button:disabled {
+    color: #ccc;
+}

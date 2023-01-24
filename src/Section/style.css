@@ -1,0 +1,37 @@
+.section {
+    background-color: white;
+    border: 1px solid gainsboro;
+    margin: 10px 0;
+}
+
+.section__paragraph {
+    padding: 20px;
+}
+
+.section__header {
+    font-weight: bold;
+    margin: 0px;
+    padding: 15px;
+}
+
+.input {
+    border-radius: 4px;
+    border-color: gainsboro;
+    border-style: solid;
+    padding: 10px;
+}
+
+.section__tools {
+    display: grid;
+    grid-template-columns: 1fr auto auto;
+    align-items: center;
+    border-bottom: 1px solid gainsboro;
+}
+
+@media (max-width: 767px) {
+    .section__tools {
+        display: grid;
+        grid-template-columns: 1fr;
+        align-content: center;
+    }
+}

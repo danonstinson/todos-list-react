@@ -1,0 +1,6 @@
+.container {
+    font-family: lato, sans-serif;
+    background-color: gainsboro;
+    margin: 0px auto;
+    max-width: 800px;
+}
