@@ -4,11 +4,11 @@
     margin: 10px 0;
 }
 
-.section__paragraph {
+.section__body {
     padding: 20px;
 }
 
-.section__header {
+.section__title {
     font-weight: bold;
     margin: 0px;
     padding: 15px;
@@ -21,7 +21,7 @@
     padding: 10px;
 }
 
-.section__tools {
+.section__paragraph {
     display: grid;
     grid-template-columns: 1fr auto auto;
     align-items: center;
@@ -29,7 +29,7 @@
 }
 
 @media (max-width: 767px) {
-    .section__tools {
+    .section__paragraph {
         display: grid;
         grid-template-columns: 1fr;
         align-content: center;
