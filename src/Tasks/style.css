@@ -1,4 +1,4 @@
-.list {
+.tasks__item {
     border-bottom: 2px solid gainsboro;
     padding: 5px;
     display: grid;
@@ -7,23 +7,23 @@
     word-break: break-all;
 }
 
-.list--hidden {
+.tasks__item--hidden {
     display: none;
 }
 
-.list__item {
+.task__content {
     padding: 5px;
 }
 
-.list__item--done {
+.task__content--done {
     text-decoration: line-through;
 }
 
-.section__list {
+.tasks {
     padding-left: 0px;
 }
 
-.list__button {
+.tasks__button {
     border: none;
     width: 30px;
     height: 30px;
@@ -32,24 +32,24 @@
     color: white;
 }
 
-.list__button:active {
+.tasks__button:active {
     border: 2px solid black;
 }
 
-.list__button--done {
+.tasks__button--done {
     background-color: green;
 }
 
-.list__button--done:hover {
+.tasks__button--done:hover {
     background-color: hsl(120, 100%, 30%);
     transition: 0.5s;
 }
 
-.list__button--remove {
+.tasks__button--remove {
     background-color: red;
 }
 
-.list__button--remove:hover {
+.tasks__button--remove:hover {
     background-color: hsl(0, 100%, 65%);
     transition: 0.5s;
 }
