@@ -4,3 +4,9 @@
     margin: 0px auto;
     max-width: 800px;
 }
+
+@media (max-width: 767px) {
+    .container {
+        margin: 0px 4px;
+    }
+}
